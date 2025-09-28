@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing as Mathematics: The CMO's Framework in the Age of AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Gradient background for the border effect */
+            background: linear-gradient(165deg, #0ea5e9, #020617);
+            padding: 2px; /* This padding creates the border thickness */
+            color: #cbd5e1; /* Default text color */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* UPDATED RULE FOR WATERMARK */
+         .page-wrapper {
+    background-color: #020617; /* The solid color, bottom layer */
+    /* The updated repeating SVG watermark, top layer */
+    background-image: url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='50%25' y='50%25' font-family='Inter, sans-serif' font-size='32' font-weight='400' fill='rgba(203, 213, 225, 0.05)' text-anchor='middle' dominant-baseline='middle' transform='rotate(-30, 200, 200)'%3E© VPG 2025%3C/text%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-attachment: fixed; /* Fixes the watermark so it doesn't scroll */
+}
+        .page-wrapper {
+            background-color: #020617; /* Main background color of the page content */
+        }
+        .section-title {
+            font-weight: 900;
+            font-size: 2.5rem;
+            letter-spacing: -0.04em;
+        }
+        .layer-title {
+            font-weight: 700;
+            font-size: 1.5rem;
+            letter-spacing: -0.025em;
+        }
+        .metric-card {
+            border: 1px solid #1e293b;
+            background: rgba(15, 23, 42, 0.5);
+            transition: all 0.2s ease-in-out;
+        }
+        .metric-card:hover {
+            border-color: #0ea5e9;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px -10px rgba(14, 165, 233, 0.2);
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #22d3ee, #0ea5e9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Adjust KaTeX render size and line height for multi-line formulas */
+        .katex {
+            font-size: 0.95em !important; 
+        }
+        .katex-display {
+            margin: 0;
+            padding: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-wrapper">
+    <main class="container mx-auto p-6 md:p-10 lg:p-16 max-w-6xl">
+        <header class="text-center mb-20">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tighter text-white leading-tight">
+                Marketing as <span class="gradient-text">Mathematics</span>
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-slate-300 max-w-4xl mx-auto">The CMO's Framework in the Age of AI</p>
+        </header>
+        <div class="max-w-4xl mx-auto mb-16 p-6 bg-slate-800/50 rounded-lg border border-slate-700">
+            <h3 class="text-2xl font-bold text-white mb-4">Table of Contents</h3>
+            <ul class="list-decimal list-inside text-slate-300 space-y-2">
+                <li><a href="#executive-summary" class="hover:text-cyan-400">Executive Summary</a></li>
+                <li><a href="#from-to-section" class="hover:text-cyan-400">The Great Marketing Re-Wiring</a></li>
+                <li><a href="#end-of-intuition" class="hover:text-cyan-400">The End of Intuition</a></li>
+                <li><a href="#framework-intro" class="hover:text-cyan-400">Marketing as Mathematics</a></li>
+                <li><a href="#framework-section" class="hover:text-cyan-400">The Science of Strategic Marketing</a></li>
+                <li><a href="#conclusion" class="hover:text-cyan-400">The Age of Quantifiable Marketer</a></li>
+            </ul>
+        </div>
+        <section id="executive-summary" class="mb-24 max-w-5xl mx-auto">
+            <h2 class="section-title text-white text-center mb-12">Executive <span class="gradient-text">Summary</span></h2>
+            <div class="space-y-6 text-lg text-slate-300 leading-relaxed">
+                <p>For generations, marketing has been a function of specialists operating in sequence, a carefully managed assembly line where strategy was born from experience and success was attributed to intuition. The process was linear, resource-intensive, and fundamentally opaque. This era is over.</p>
+                <p>Artificial Intelligence has not just empowered the marketing team; it has fundamentally re-wired it. The traditional assembly line, with its siloed writers, designers, coders, and channel experts, has been shattered. <strong><span class="gradient-text">AI has democratized capability</span>, turning every marketer into a multi-modal powerhouse able to write, design, analyze, and execute simultaneously</strong>. This parallel processing has dissolved the old bottleneck of resource capacity only to reveal a new, more formidable one: <strong class="text-white">strategic focus</strong>.</p>
+                <p>In an environment of infinite capability and instantaneous execution, <strong><span class="gradient-text">the critical challenge is no longer <em>how</em> to do something, but <em>what</em> is worth doing</span></strong>. The abundance of AI-generated data, content, and insights has created a crisis of signal versus noise. Intuition and experience, once the trusted compasses for navigating this landscape, are now too slow and too imprecise.</p>
+                <p class="text-center text-xl font-semibold text-white"><span class="gradient-text">The future of marketing is not art; it is mathematics.</span></p>
+                <p>It is a discipline governed by a set of core equations that describe the health, efficiency, and velocity of the growth engine. This white paper presents a diagnostic framework for the modern Chief Marketing Officer, reframing the GTM motion as a quantifiable system. <strong><span class="gradient-text">We will move beyond cluttered dashboards of vanity metrics</span></strong> to define the core mathematical constants and variables that truly matter.</p>
+                <p class="font-medium text-white">This is a framework for the modern leader: to evolve from the Chief Marketer to the Chief Mathematician, architecting a system <strong><span class="gradient-text">not of campaigns, but of equations</span></strong>, and leading a team that executes not on gut feel, but on the undeniable logic of the numbers.</p>
+            </div>
+        </section>
+        <section id="from-to-section" class="mb-24 pt-8">
+                        <h2 class="section-title text-white text-center mb-4">The Great <span class="gradient-text">Marketing Re-Wiring</span></h2>
+            <h4 class="text-center text-white italic mb-12">From Assembly Line to Powerhouse</h4>
+            <div class="max-w-5xl mx-auto mb-12">
+                <p class="text-lg text-slate-300 leading-relaxed text-center">The operational model of marketing has been implicitly governed by a one-way flow of production. Consider the creation of a single, high-stakes marketing asset like a strategic white paper:</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center mb-12">
+                <div class="p-6 rounded-lg bg-slate-900 border border-slate-800 text-center h-full flex flex-col">
+                    <h3 class="text-xl font-bold text-white mb-4">The Old Way: Assembly Line</h3>
+                    <div class="flex justify-center items-center space-x-2 text-3xl text-slate-500 mb-4">
+                        <span>📝</span><span class="text-slate-600">→</span><span>🎨</span><span class="text-slate-600">→</span><span>💻</span><span class="text-slate-600">→</span><span>📢</span>
+                    </div>
+                    <p class="text-slate-400 text-sm">The process began with a strategist, moved to a content writer, then a copywriter. It went to a designer for layout, and finally to channel specialists for distribution. Each handoff was a point of friction, delay, and lost context. A campaign was a monumental effort of sequential coordination.</p>
+                </div>
+                <div class="text-center p-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                    <p class="mt-4 text-slate-300 font-medium">AI compresses and simultaneously mobilizes the entire sequence.</p>
+                </div>
+                <div class="p-6 rounded-lg bg-slate-900 border border-slate-800 text-center h-full flex flex-col">
+                    <h3 class="text-xl font-bold text-white mb-4">The AI Shift: Powerhouse Team</h3>
+                     <div class="flex justify-center items-center h-12 mb-4 space-x-4">
+                        <span class="text-3xl">🤖</span>
+                        <div class="flex flex-col items-center">
+                            <div class="flex space-x-3"><span class="text-2xl">📝</span><span class="text-2xl">🎨</span></div>
+                            <div class="flex space-x-3"><span class="text-2xl">💻</span><span class="text-2xl">📢</span></div>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 text-sm">Today, a single individual can use AI to draft content, model audiences, create visuals, build landing pages, and optimize campaigns in real-time. The lines have not just blurred; they have been erased.</p>
+                </div>
+            </div>
+            <div class="max-w-4xl mx-auto mb-8">
+                <p class="text-lg text-slate-300 leading-relaxed text-center">This shift has created a team of unprecedented capability. However, it has also created the new, dominant bottleneck for the modern marketing function.</p>
+            </div>
+            <div class="text-center mt-16 p-8 bg-red-900/20 border border-red-500/30 rounded-lg max-w-4xl mx-auto">
+                <h3 class="text-2xl font-bold text-red-300 mb-4">The New Bottleneck: Signal vs. Noise</h3>
+                <br><p class="text-red-300/90 leading-relaxed">When anyone can create anything instantly, the challenge ceases to be one of execution. The bottleneck moves from the hands to the head. It becomes a problem of strategic clarity.</p></br> 
+                <p class="text-red-300/90 leading-relaxed">In an ocean of AI-generated data, insights, and tactical possibilities, which one do you pursue? When you can test 1,000 ad variants, how do you decide on the core message?</p>
+                <p class="mt-4 text-red-200 font-medium">Capability is now a commodity. Discernment is the new competitive advantage. And <strong class text-white>discernment, in the age of AI, is a mathematical problem.</strong></p>
+            </div>
+        </section>
+
+        <section id="end-of-intuition" class="mb-24 max-w-5xl mx-auto">
+            <h2 class="section-title text-white text-center mb-4">The End of <span class="gradient-text">Intuition</span></h2>
+            <h4 class="text-center text-white italic mb-12">Towards a Grand Unified Equation</h4>
+            <div class="space-y-6 text-lg text-slate-300 leading-relaxed">
+                <p>Marketing's historic reliance on "gut feel" was a necessary proxy for incomplete data. Experience was the algorithm used to fill the gaps. That era is definitively closing. The loop between thought, execution, and feedback has compressed from months to minutes, transforming the very nature of strategic validation.</p>
+                <p>Long-winded meetings to reshape positioning are being replaced by AI-driven market sentiment analysis. Endless cycles of creative review are supplanted by rapid multi-variate testing that delivers statistical winners. The question is no longer "What do we think will work?" but "What does the data prove is working?"</p>
+                <div class="p-8 bg-gradient-to-r from-slate-900 to-slate-800 border border-slate-700 rounded-xl text-center my-8">
+                    <h3 class="text-2xl font-bold gradient-text mb-4">The Grand Unified Equation</h3>
+                    <p class="text-slate-300">A theoretical north star where every input into the GTM system every penny spent, every piece of content created can be mathematically linked to a predictable set of outputs: pipeline, revenue, and retention.</p>
+                </div>
+                <p>While a perfect, all-knowing equation remains theoretical, the mandate for the modern CMO is to get as close to it as humanly and technologically possible. Achieving this requires a new language: a language of axioms, variables, and constants that describe the GTM system with mathematical precision.</p>
+            </div>
+        </section>
+
+        <section id="framework-intro" class="text-center mb-16">
+                        <h2 class="section-title text-white text-center mb-4">Marketing as <span class="gradient-text">Mathematics</span></h2>
+            <h4 class="text-center text-white italic mb-12">A Diagnostic Framework</h4>
+            <p class="mt-4 text-lg text-slate-300 max-w-4xl mx-auto">To navigate the "Signal vs. Noise" bottleneck, leaders need a framework to filter data and focus on the metrics that function as core drivers of the GTM equation. This model is organized into three layers.</p>
+        </section>
+
+        <section class="mb-20">
+            <div class="text-center mb-10">
+                <h3 class="layer-title text-white">Layer 1: The Foundation (The Axioms of Strategy)</h3>
+                <p class="text-slate-300 max-w-3xl mx-auto">These fundamental proofs determine if the GTM system is built on solid ground. If the math here is flawed, no amount of executional excellence can save it.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Market Addressability Coefficient <span class="text-cyan-400">(M<sub>ac</sub>)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ M_{ac} = \frac{\sum(\text{Revenue from ICP Accounts})}{\text{Total Addressable Market Revenue}} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> The concentration of market value within your Ideal Customer Profile. A high coefficient means you are aimed at the richest part of the market.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> Have we aimed our cannons at the battleship or the patrol boats?</p></article>
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Competitive Displacement Score <span class="text-cyan-400">(S<sub>cd</sub>)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ S_{cd} = \begin{gathered}(\text{Win Rate against Competitor}) \\ \times (\text{Avg. LTV of Wins})\end{gathered} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> Not just if you are winning, but the quality of your wins. A high score shows you are capturing the most valuable customers.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> Are we winning the battles that will win the war?</p></article>
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Unit Economic Viability <span class="text-cyan-400">(ε<sub>v</sub>)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ \epsilon_{v} = \frac{\text{CAC}}{\substack{(\text{Avg. Revenue Per Account}) \\ \times (\text{Gross Margin})}} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> The capital efficiency of your growth model, measured in months to recover acquisition costs. The axiom of a sustainable business.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> Does our growth engine print cash or burn it?</p></article>
+            </div>
+        </section>
+
+        <section class="mb-20">
+            <div class="text-center mb-10">
+                <h3 class="layer-title text-white">Layer 2: The Architecture (The Mechanics of Growth)</h3>
+                <p class="text-slate-300 max-w-3xl mx-auto">These metrics diagnose the efficiency of the machine built to capture and convert market potential.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Brand Gravity <span class="text-cyan-400">(G<sub>b</sub>)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ G_{b} = \frac{\text{Value of Inbound-Initiated Pipeline}}{\text{Value of Outbound-Initiated Pipeline}} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> The power of your brand to pull demand versus the effort to push for it. A ratio > 1 means your brand is reducing your cost of growth.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> Is our brand a magnet or a battering ram?</p></article>
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Pipeline Velocity <span class="text-cyan-400">(V<sub>p</sub>)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ V_{p} = \frac{\begin{gathered}(\# \text{ of Opps}) \times (\text{Avg. Deal Size}) \\ \times (\text{Win Rate})\end{gathered}}{\text{Sales Cycle Length in Days}} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> The daily dollar value being generated by your sales funnel. The single most important measure of GTM throughput.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> How fast is our revenue factory running?</p></article>
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Funnel Efficiency Gradient <span class="text-cyan-400">(∇E<sub>f</sub>)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ \nabla E_{f} = \text{Conversion Rate}_{(Stage:N \rightarrow N+1)} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> The precise location of friction in your demand engine. A steep drop in the gradient points directly to your biggest bottleneck.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> Where is the single biggest leak in our revenue pipe?</p></article>
+            </div>
+        </section>
+
+        <section class="mb-24">
+            <div class="text-center mb-10">
+                <h3 class="layer-title text-white">Layer 3: The Orchestration (The Dynamics of Activation)</h3>
+                <p class="text-slate-300 max-w-3xl mx-auto">These metrics measure your ability to deliver value and, most importantly, to learn and adapt.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Value Realization Latency <span class="text-cyan-400">(L<sub>vr</sub>)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ L_{vr} = \substack{\text{Median Time from Signup} \\ \text{to Key Activation Event}} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> The time it takes a user to experience the "aha moment." A direct measure of onboarding friction and a leading indicator of retention.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> How quickly do customers get why they hired our product?</p></article>
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Net Revenue Retention Rate <span class="text-cyan-400">(Ṙ<sub>net</sub>)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ \dot{R}_{net} = \frac{\text{Starting MRR} + \text{Expansion} - \text{Churn}}{\text{Starting MRR}} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> The true growth rate of your business. Proves value delivered outpaces value lost. An Ṙ<sub>net</sub> over 100% is the ultimate proof of a healthy GTM motion.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> Does our product get more valuable over time?</p></article>
+                <article class="metric-card p-6 rounded-xl flex flex-col"><h4 class="font-bold text-lg text-white">Organizational Learning Rate <span class="text-cyan-400">(λ)</span></h4><div class="my-4 flex-grow flex items-center justify-center">$$ \lambda = \frac{1}{\text{Time from Insight to Action}} $$</div><p class="text-sm text-slate-300"><strong class="text-white">Reveals:</strong> Your GTM agility. When AI provides insights instantly, your ability to act on them is your last true competitive advantage.</p><p class="text-sm text-slate-400 italic mt-4"><strong>CMO's Question:</strong> How fast can we learn?</p></article>
+            </div>
+        </section>
+
+        <section id="framework-section" class="mb-12 p-10 bg-slate-900 border border-slate-800 rounded-2xl">
+            <h2 class="section-title text-white text-center">The Science of <span class="gradient-text">Strategic Marketing</span></h2>
+            <h4 class="text-center text-white italic mt-2 mb-6">From Chief Marketer to Chief Mathematician</h4>
+            <p class="text-center text-lg mt-4 mb-8 text-slate-300">The emergence of AI has irrevocably altered the role of the marketing leader. The mandate is to be the Chief Mathematician of the growth engine. This requires three commitments:</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center mt-10">
+                <div>
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-slate-800 mx-auto mb-4 border border-slate-700"><span class="text-2xl font-bold gradient-text">1</span></div>
+                    <h3 class="font-bold text-xl text-white">Define Your Core Equation</h3>
+                    <p class="text-slate-400 mt-2 text-sm">Work with your CRO and CFO to select the 3-4 variables that form the core of your company's unique growth equation. Make these the unwavering focus of your team.</p>
+                </div>
+                <div>
+                     <div class="flex items-center justify-center h-16 w-16 rounded-full bg-slate-800 mx-auto mb-4 border border-slate-700"><span class="text-2xl font-bold gradient-text">2</span></div>
+                    <h3 class="font-bold text-xl text-white">Instrument the System</h3>
+                    <p class="text-slate-400 mt-2 text-sm">Invest in the tech and ops to measure these core metrics with high fidelity and in real-time. Your marketing ops team is the central nervous system of your department.</p>
+                </div>
+                <div>
+                     <div class="flex items-center justify-center h-16 w-16 rounded-full bg-slate-800 mx-auto mb-4 border border-slate-700"><span class="text-2xl font-bold gradient-text">3</span></div>
+                    <h3 class="font-bold text-xl text-white">Lead the Diagnostic Cadence</h3>
+                    <p class="text-slate-400 mt-2 text-sm">Anchor your most important meeting in this mathematical framework. Discuss the health of the system, not just campaigns. Always ask: "We see the numbers. What is the mathematical reason why?"</p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="conclusion" class="text-center border-t border-slate-800 pt-10 mt-20">
+            <h2 class="section-title text-white mb-6">The Age of the <span class="gradient-text">Quantifiable Marketer</span></h2>
+            <div class="max-w-4xl mx-auto space-y-4 text-lg text-slate-300 leading-relaxed text-left">
+                <p>Marketing's transformation is not a passing trend but a structural shift. AI has dissolved the old barriers of production and elevated the stakes to strategic precision. For CMOs, success now depends on mastering the equations that govern growth, not merely the art of messaging.</p>
+                <p>By defining the core metrics, instrumenting their measurement, and leading with mathematical discipline, leaders can turn infinite capability into predictable outcomes.</p>
+                <p class="text-xl font-bold text-white mt-8">The age of intuition is past. The age of the <span class="gradient-text">quantifiable marketer</span> has begun.</p>
+            </div>
+        </footer>
+
+    </main>
+</div>
+<!-- Footer Section -->
+<footer class="mt-24 py-12 px-6 md:px-16 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 border-t border-cyan-500/20 rounded-xl relative overflow-hidden">
+    <!-- Animated top glow line -->
+    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 animate-pulse"></div>
+    
+    <div class="max-w-4xl mx-auto text-center space-y-4 relative z-10">
+        <h3 class="text-xl md:text-2xl font-bold text-white tracking-tight mb-2">About the Author</h3>
+        <p class="text-slate-300 text-sm md:text-base leading-relaxed text-left">
+            <strong><span class="gradient-text">Vishnu priya Govindarajan's</span></strong> work focuses on developing data-driven GTM frameworks at the intersection of marketing and AI. This whitepaper is the first in a <strong class text-white>research series</strong> dedicated to establishing <strong class text-white>a new mathematical foundation for marketing in the age of AI.</strong><p class="text-slate-300 text-sm md:text-base leading-relaxed text-left">The objective is to provide leaders with a robust framework to think with clarity, act with decisiveness, and scale with precision.</p>
+        </p>
+        <a href="https://www.linkedin.com/in/vpg" 
+           class="mt-6 inline-block bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold px-6 py-3 rounded-lg hover:opacity-90 transition-transform duration-200 hover:scale-105">
+           Contact Me
+        </a>
+    </div>
+    <p class="text-xs text-slate-500 mt-8">
+  &copy; 2025 Vishnu priya Govindarajan. All Rights Reserved.
+</p>
+</footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false}
+                ],
+                throwOnError : false
+            });
+        });
+    </script>
+    <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+<script>
+  document.addEventListener('keydown', function (e) {
+    // Block F12
+    if (e.keyCode == 123) { 
+      e.preventDefault();
+    }
+    // Block Ctrl+U
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+      e.preventDefault();
+    }
+    // Block Ctrl+C
+    if (e.ctrlKey && e.keyCode == 'C'.charCodeAt(0)) {
+      e.preventDefault();
+    }
+  });
+</script>
+</body>
+</html>
+
+
